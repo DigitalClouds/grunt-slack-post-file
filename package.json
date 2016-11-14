@@ -1,0 +1,20 @@
+{
+  "name": "grunt-slack-post-file",
+  "version": "0.0.0",
+  "description": "Post a file to slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "slack"
+  ],
+  "author": "David Osborne",
+  "license": "ISC",
+  "dependencies": {
+    "form-data": "^2.1.2",
+    "mz": "^2.5.0",
+    "node-fetch": "^1.6.3"
+  }
+}
