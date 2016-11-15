@@ -10,7 +10,7 @@ const FormData = require('form-data');
 
 module.exports = function (grunt) {
 
-    grunt.registerMultiTask('slack-post-file', 'Post a file to slack.', function () {
+    grunt.registerMultiTask('slack_post_file', 'Post a file to slack.', function () {
         // Merge task-specific and/or target-specific options with these defaults.
         const options = this.options({
             apiUrl: 'https://slack.com/api/files.upload',
